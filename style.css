@@ -1,0 +1,128 @@
+* {
+    box-sizing: border-box;
+}
+
+.container {
+	width: 100%;
+	max-width: 900px;
+	margin: 0 auto;
+}	 
+
+.row {
+	text-align: center;	
+	background: #9ACD32;
+}
+
+.row:before,
+.row:after {
+	content: "";
+	display: table ;
+	clear: both;
+ }
+ 
+ [class*="col-"] {
+ 	float: left;
+ 	min-height: 1px;
+ 	padding: 10px;
+ 	height: 130px;
+ }
+ 
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+ 
+.col-offset-1 {margin-left: 0;}
+.col-offset-2 {margin-left: 8.33%;}
+.col-offset-3 {margin-left: 16.66%;}
+.col-offset-4 {margin-left: 25%;}
+.col-offset-5 {margin-left: 33.33%;}
+.col-offset-6 {margin-left: 41.66%;}
+.col-offset-7 {margin-left: 50%;}
+.col-offset-8 {margin-left: 58.33%;}
+.col-offset-9 {margin-left: 66.66%;}
+.col-offset-10 {margin-left: 75%;}
+.col-offset-11 {margin-left: 83.33%;}
+.col-offset-12 {margin-left: 91.66%;}
+
+/* list */
+ ul {
+	padding-left: 0;
+	list-style: none;
+	margin: 0 auto;
+}
+
+li {
+	height: 50px;
+	margin: 0 auto;
+	width: 100px;
+	text-align: center;
+}
+ 
+ .row p {
+	 padding: 30px;
+ }
+ /* background colors */
+.example {
+	text-align: center;
+	background-color: #59ABE3;
+	color: white;
+}
+
+.example2 {
+	background-color: #F0E68C;
+}
+
+.example3 {
+	background-color: #FFD700;
+}
+
+.example4 {
+	background-color: #B8860B;
+}
+
+.example5 {
+	background-color: #7FFFD4;
+}
+
+.example6 {
+	background-color: #6A5ACD;
+}
+
+.example7 {
+	background-color: #FF0000;
+}
+
+.example8 {
+	background-color: #DDA0DD;
+}
+
+.example9 {
+	background-color: #FF4500;
+}
+
+.example10 {
+	background-color: #DCDCDC;
+	color: black;
+	text-align: center;
+	padding: 20px;
+	font-size: 20px;
+}
+
+.right {
+	background-color: #E4F1FE;
+	height: 300px;
+}
+
+.left {
+	background-color: #40E0D0;
+	height: 300px;
+}
